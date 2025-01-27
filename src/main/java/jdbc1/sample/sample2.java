@@ -14,7 +14,7 @@ Connection connection =DriverManager.getConnection("jdbc:mysql://localhost:3306"
 		System.out.println(connection);
 		Statement statement=connection.createStatement();
 //statemnt.execute("create table pavithragouda(id integer primary key,name varchar(45 not null)");
-		statement.execute("create database manjula");
+		statement.execute("create database kusuma");
 	connection.close();
 	System.out.println("values inserted");
 	
